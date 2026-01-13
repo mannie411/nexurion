@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Inter:wght@400;500&display=swap");
+
+/* Mappings for Figma custom fonts to Google Fonts */
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("/fonts/neue-montreal/NeueMontreal-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Neue Montreal";
+  src: url("/fonts/neue-montreal/NeueMontreal-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Test Tiempos Fine";
+  src: url("/fonts/tiempos/TestTiemposFine-RegularItalic.otf")
+    format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Test Tiempos Fine";
+  src: url("/fonts/tiempos/TestTiemposFine-MediumItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Test Tiempos Fine";
+  src: url("/fonts/tiempos/TestTiemposFine-BoldItalic.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --font-neue-montreal: "Neue Montreal", sans-serif;
+  --font-test-tiempos-fine: "Test Tiempos Fine", serif;
+}

@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+/* If you need the tw-animate-css package and it's installed via npm/yarn,
+   import it here (or register it as a plugin in tailwind.config.js) */
+@import "tw-animate-css";
