@@ -31,6 +31,7 @@ export const solutions: ResourceCardProps[] = [
     },
     label: "",
     type: "default",
+    id: undefined,
   },
   {
     type: "default",
@@ -42,6 +43,7 @@ export const solutions: ResourceCardProps[] = [
     title: "Cybersecurity & Infrastructure Protection",
     description:
       "Seamlessly capture and manage trades, from deal entry to settlement, in a single, trusted platform.",
+    id: undefined,
   },
   {
     type: "default",
@@ -53,5 +55,6 @@ export const solutions: ResourceCardProps[] = [
     title: "IT Project Delivery & Digital Transformation",
     description:
       "Seamlessly capture and manage trades, from deal entry to settlement, in a single, trusted platform.",
+    id: undefined,
   },
 ];

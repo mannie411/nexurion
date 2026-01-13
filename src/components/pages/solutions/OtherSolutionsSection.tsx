@@ -60,6 +60,7 @@ export default function OtherSolutionsSection({
                   path: "",
                 }}
                 type={"default"}
+                id={undefined}
               />
             ))}
           </div>

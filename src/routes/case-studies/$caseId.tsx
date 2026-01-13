@@ -263,6 +263,7 @@ function ExploreCaseStudiesSection() {
                 path: "/case-studies/securing-trading-infrastructure",
               }}
               type={"download"}
+              id={undefined}
             />
             <ResourceCard
               image={imgPlaceholder}
@@ -273,6 +274,7 @@ function ExploreCaseStudiesSection() {
                 path: "/case-studies/multi-country-integration",
               }}
               type={"download"}
+              id={undefined}
             />
             <ResourceCard
               image={imgPlaceholder}
@@ -283,6 +285,7 @@ function ExploreCaseStudiesSection() {
                 path: "/case-studies/real-time-reporting",
               }}
               type={"download"}
+              id={undefined}
             />
           </div>
         </div>

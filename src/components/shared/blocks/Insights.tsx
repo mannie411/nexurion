@@ -42,6 +42,7 @@ export default function InsightsSection() {
                 path: "",
               }}
               type="download"
+              id={undefined}
             />
             <ResourceCard
               image={imgPlaceholder}
@@ -52,6 +53,7 @@ export default function InsightsSection() {
                 path: "",
               }}
               type="download"
+              id={undefined}
             />
             <ResourceCard
               image={imgPlaceholder}
@@ -62,6 +64,7 @@ export default function InsightsSection() {
                 path: "",
               }}
               type="default"
+              id={undefined}
             />
           </div>
         </div>
